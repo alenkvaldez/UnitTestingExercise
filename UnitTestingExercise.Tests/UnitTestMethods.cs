@@ -1,9 +1,10 @@
 ﻿using System;
-namespace UnitTestingExercise
+
+namespace UnitTestingExercise.Tests
 {
     internal class UnitTestMethods
     {
-        public class UnitTestMethod
+        public UnitTestMethods()
         {
             // Step 1: Add a reference to your UnitTestingExercise project:
 
@@ -59,5 +60,26 @@ namespace UnitTestingExercise
 
             //*****NOW RUN ALL OF YOUR TESTS*********//
         }
+
+        internal object Add(int num1, int num2, int num3)
+        {
+            throw new NotImplementedException();
+        }
+
+        internal object Divide(int num1, int num2)
+        {
+            throw new NotImplementedException();
+        }
+
+        internal object Multiply(int num1, int num2)
+        {
+            throw new NotImplementedException();
+        }
+
+        internal object Subtract(int minuend, int subtrhend)
+        {
+            throw new NotImplementedException();
+        }
+    }
     }
 }
